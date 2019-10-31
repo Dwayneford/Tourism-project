@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>zhuji</display-name>
+
+  <servlet>
+    <servlet-name>DindanServlet</servlet-name>
+    
+    <servlet-class>com.zhuji.servlet.DindanServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>JindianchaxuanServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.JindianchaxuanServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Hezuoshangjia_tupianServlset</servlet-name>    
+    <servlet-class>com.zhuji.servlet.Hezuoshangjia_tupianServlset</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HezuoshangjiaServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.HezuoshangjiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Pinglun_tupianServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.Pinglun_tupianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JindianServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.JindianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XianluServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.XianluServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>XianluGuanxiServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.XianluGuanxiServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>GetVerificationServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.GetVerificationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdministratorServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.AdministratorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>YoujiShareServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.YoujiShareServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>com.zhuji.util.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommonsServlet</servlet-name>
+    <servlet-class>com.zhuji.servlet.CommonsServlet</servlet-class>
+  </servlet>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DindanServlet</servlet-name>
+    <url-pattern>/servlet/DindanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Hezuoshangjia_tupianServlset</servlet-name>
+    <url-pattern>/servlet/Hezuoshangjia_tupianServlset</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>JindianchaxuanServlet</servlet-name>
+    <url-pattern>/servlet/JindianchaxuanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HezuoshangjiaServlet</servlet-name>
+    <url-pattern>/servlet/HezuoshangjiaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Pinglun_tupianServlet</servlet-name>
+    <url-pattern>/servlet/Pinglun_tupianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JindianServlet</servlet-name>
+    <url-pattern>/servlet/JindianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XianluServlet</servlet-name>
+    <url-pattern>/servlet/XianluServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XianluGuanxiServlet</servlet-name>
+    <url-pattern>/servlet/XianluGuanxiServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>GetVerificationServlet</servlet-name>
+    <url-pattern>/servlet/GetVerificationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdministratorServlet</servlet-name>
+    <url-pattern>/servlet/AdministratorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YoujiShareServlet</servlet-name>
+    <url-pattern>/servlet/YoujiShareServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/servlet/BaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommonsServlet</servlet-name>
+    <url-pattern>/servlet/CommonsServlet</url-pattern>
+  </servlet-mapping>
+  
+
+
+
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
